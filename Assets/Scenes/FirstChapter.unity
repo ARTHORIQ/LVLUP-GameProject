@@ -443,6 +443,7 @@ GameObject:
   - component: {fileID: 955862821}
   - component: {fileID: 955862822}
   - component: {fileID: 955862823}
+  - component: {fileID: 955862824}
   m_Layer: 0
   m_Name: Gamecontroller
   m_TagString: Untagged
@@ -484,12 +485,10 @@ MonoBehaviour:
   shootingSpeed: 2
   enemiesLaserPrefab: {fileID: 8190708072320483588, guid: 0ec88abf790c79742ab25e59006de7c0, type: 3}
   movingSpeed: 1
-  speedIncreaseAmount: 0.2
-  maxMovingSpeed: 10
   enemyContainer: {fileID: 1327964101}
-  player: {fileID: 850046425}
   horizontalLimit: 1.25
   verticalLimit: 1.4
+  player: {fileID: 850046425}
 --- !u!114 &955862823
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -502,6 +501,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 311face470a2b1c48a24661edadb22ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &955862824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 955862820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1308d2d56bbcb849a45b9a3a022d6fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pools:
+  - tag: PowerUp
+    prefab: {fileID: 5839468003513610840, guid: 0bb2525e507abb94e9a8fbc4327e03ab, type: 3}
+    size: 3
+  - tag: Laser
+    prefab: {fileID: 3295213519121513412, guid: 719af0aca9868104884912e143ced6b7, type: 3}
+    size: 4
 --- !u!1001 &1072423792
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1054,5 +1072,9 @@ PrefabInstance:
       propertyPath: explosionPrefab
       value: 
       objectReference: {fileID: 2636099899487022959, guid: a13e3863100d54549a63f35a2091de69, type: 3}
+    - target: {fileID: 9115662328691302142, guid: df6232cafbe22804aae63ef74164aaa8, type: 3}
+      propertyPath: powerUpPrefabs.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df6232cafbe22804aae63ef74164aaa8, type: 3}
