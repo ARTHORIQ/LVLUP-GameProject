@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6861263687223226192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Masterbank.bank
+  m_EditorClassIdentifier: 
+  Path: ../../FMOD/File Projects/LVLUP/Build/Desktop/Masterbank.bank
+  Name: Masterbank
+  StudioPath: bank:/Masterbank
+  lastModified: 638136556111516498
+  FileSizes:
+  - Name: Desktop
+    Value: 1280000
+  Exists: 1
+--- !u!114 &-511429789324907998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/BGM/BattleMusics
+  m_EditorClassIdentifier: 
+  Path: event:/BGM/BattleMusics
+  Guid:
+    Data1: -1934022134
+    Data2: 1312861150
+    Data3: 1459301800
+    Data4: 102635769
+  Banks:
+  - {fileID: -6861263687223226192}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 106944
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: 2544412921368785632}
+  - {fileID: -6861263687223226192}
+  EditorEvents:
+  - {fileID: -511429789324907998}
+  - {fileID: 8227275113440248507}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: -6861263687223226192}
+  StringsBanks:
+  - {fileID: 2544412921368785632}
+  cacheTime: 638136556111529348
+  cacheVersion: 131601
+--- !u!114 &2544412921368785632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Masterbank.strings.bank
+  m_EditorClassIdentifier: 
+  Path: ../../FMOD/File Projects/LVLUP/Build/Desktop/Masterbank.strings.bank
+  Name: Masterbank.strings
+  StudioPath: bank:/Masterbank.strings
+  lastModified: 638136556111529348
+  FileSizes:
+  - Name: Desktop
+    Value: 830
+  Exists: 1
+--- !u!114 &8227275113440248507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Effects/PlayerFire
+  m_EditorClassIdentifier: 
+  Path: event:/Effects/PlayerFire
+  Guid:
+    Data1: 635306829
+    Data2: 1270433548
+    Data3: 955335083
+    Data4: 749741944
+  Banks:
+  - {fileID: -6861263687223226192}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
